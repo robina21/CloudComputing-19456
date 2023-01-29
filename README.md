@@ -24,9 +24,17 @@ Prerequisites
 •	Libraries: Requests, uszipcode 
 
 
-Building the Image
+Build the Image:
 
 ```docker build -t request-client .```
 
  
 [![Picture1.png](https://i.postimg.cc/BvzVdTvX/Picture1.png)](https://postimg.cc/WDM8ZJgv)
+
+Run The Container:
+
+```docker run -p 8000:8000 request-client```
+
+[![P2.png](https://i.postimg.cc/kG7MbPdr/P2.png)](https://postimg.cc/5YkWhG0p)
+
+
