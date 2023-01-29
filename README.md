@@ -37,4 +37,8 @@ Run The Container:
 
 [![P2.png](https://i.postimg.cc/kG7MbPdr/P2.png)](https://postimg.cc/5YkWhG0p)
 
+Check the browser to display results by passing City Name:
 
+```http://localhost:8000/weather/pleasanton```
+
+[![P3.png](https://i.postimg.cc/dQnwxXY1/P3.png)](https://postimg.cc/grwCwgrF)
