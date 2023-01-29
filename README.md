@@ -59,7 +59,8 @@ def get_weather(zipcode):
     return weather_data
 
 zipcode = sys.argv[1]
-get_weather(zipcode)```
+get_weather(zipcode)
+```
 
 Build the Image:
 
