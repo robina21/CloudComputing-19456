@@ -23,6 +23,43 @@ Prerequisites
 •	Docker
 •	Libraries: Requests, uszipcode 
 
+Build Service 1:
+
+```from uszipcode import SearchEngine
+import sys
+"""Takes City name as variable and prints ZIP CODE"""
+search = SearchEngine()
+
+def get_zipcode(city_name):
+    result = search.by_city(city_name)
+    if result:
+        print(f"The Zip Code for {city_name} is --> ", result[0].zipcode)
+        return result[0].zipcode
+
+    else:
+        return None
+
+city_name = sys.argv[1]
+get_zipcode(city_name)
+```
+
+Build Service 2:
+
+```import requests
+import json
+import sys
+"""Takes Zip code as variable and outputs weather"""
+
+def get_weather(zipcode):
+    api_key = "e116e41a98926eed847b7398fde4f339"
+    url = "http://api.openweathermap.org/data/2.5/weather?zip={},us&appid={}".format(zipcode, api_key)
+    response = requests.get(url)
+    weather_data = json.loads(response.text)
+    print(f"The weather data for {zipcode} is --->", weather_data)
+    return weather_data
+
+zipcode = sys.argv[1]
+get_weather(zipcode)```
 
 Build the Image:
 
