@@ -1,25 +1,17 @@
-Read me for Build a Dockerfile, Image, and Container
+APP FOLDER in the Repo contains the following:
 
-
-
-APP FOLDER contains the following:
-
-Make these two microservices work together (Optional).
+   > Docker File
  
-the client.py file has the both the services working together.
-The city names gets converted to zip code and then converted to weather.
-
-From the browser pass the city name and it will output the weather on the UI
-
+   > Client.py - This file has both the services working together. The city names gets converted to zip code and then converted to weather Information.
 
 Screen shots for weather client file has the following:
 
-Screen of the docker file output, image output, container output and the browser outputs.
+   > Screen of the docker file output, image output, container output and the browser outputs.
 
-Build a Dockerfile, Image, and Container
-Getting Started
-These instructions will help to Build a Docker file, an image and a container to run a python script on the web server
-Prerequisites
+
+These below instructions will help to Build a Docker file, an image and a container to run a python script on the web server.
+
+Prerequisites:
 •	Docker
 •	Libraries: Requests, uszipcode 
 
