@@ -118,7 +118,7 @@ Build the Image:
  
 [![Picture1.png](https://i.postimg.cc/BvzVdTvX/Picture1.png)](https://postimg.cc/WDM8ZJgv)
 
-Display Image:
+Display the created Images: [The below image shows the "request-client" which was created with the above command]
 
 ```docker images```
 
