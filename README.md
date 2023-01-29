@@ -118,6 +118,12 @@ Build the Image:
  
 [![Picture1.png](https://i.postimg.cc/BvzVdTvX/Picture1.png)](https://postimg.cc/WDM8ZJgv)
 
+Display Image:
+
+```docker images```
+
+[![P4.png](https://i.postimg.cc/3xjT2bnY/P4.png)](https://postimg.cc/jDjmbcpF)
+
 Run The Container:
 
 ```docker run -p 8000:8000 request-client```
