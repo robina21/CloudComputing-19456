@@ -12,8 +12,10 @@ Screen shots for weather client file has the following:
 These below instructions will help to Build a Docker file, an image and a container to run a python script on the web server.
 
 Prerequisites:
-•	Docker
-•	Libraries: Requests, uszipcode 
+   > Docker
+   > Libraries: 
+      > Requests 
+      > uszipcode 
 
 Build Service 1:
 
