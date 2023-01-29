@@ -13,9 +13,7 @@ These below instructions will help to Build a Docker file, an image and a contai
 
 Prerequisites:
    > Docker
-   > Libraries: 
-      > Requests 
-      > uszipcode 
+   > Libraries -> Requests, uszipcode 
 
 Build Service 1:
 
