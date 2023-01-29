@@ -26,6 +26,7 @@ Prerequisites
 
 Building the Image
 
-docker build -t request-client .
+```docker build -t request-client .```
+
  
 [![Picture1.png](https://i.postimg.cc/BvzVdTvX/Picture1.png)](https://postimg.cc/WDM8ZJgv)
