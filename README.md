@@ -1,4 +1,4 @@
-#**BUILD YOUR OWN DOCKER FILE, IMAGE, AND CONTAINER**
+# **BUILD YOUR OWN DOCKER FILE, IMAGE, AND CONTAINER**
 
 App Folder in the Repo contains the following:
 
